@@ -52,8 +52,22 @@ export const Collections = () => {
           <SwiperSlide>
             <div className="slide-info">
               <img src={Round} alt="" />
+              <p className="slide-info__text">Round Neck Solid Top</p>
+              <p className="slide-info__price">$150</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide-info">
+              <img src={Frilled} alt="" />
               <p className="slide-info__text">Frilled Sleeves Midi Dress</p>
               <p className="slide-info__price">$200</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide-info">
+              <img src={White} alt="" />  
+              <p className="slide-info__text">White Rayon Short Blouson Crop Top</p>
+              <p className="slide-info__price">$250</p>
             </div>
           </SwiperSlide>
         </Swiper>
