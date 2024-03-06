@@ -1,6 +1,8 @@
 .collections {
     padding: 0 100rem;
     background: white;
+    padding-top: 150rem;
+    padding-bottom: 246rem;
   &__title {
     color: rgb(6, 26, 64);
     font-family: Playfair Display;
@@ -63,4 +65,13 @@
     background: rgb(0, 53, 89);
     cursor: pointer;
   }
+
+  .slider-cube{
+    position: absolute;
+    right: -30rem;
+    bottom: -70rem;
+  }
+//   .slider-dots{
+
+//   }
 }
