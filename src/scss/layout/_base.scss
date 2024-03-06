@@ -1,0 +1,103 @@
+html {
+    font-size: 1px;
+  
+    @include desktop {
+      font-size: 0.95px;
+    }
+    @include desktop-small {
+      font-size: 0.9px;
+    }
+    @include tablet {
+      font-size: 0.85px;
+    }
+  
+    @include tablet-small {
+      font-size: 0.8px;
+    }
+  
+    @include mobile {
+      font-size: 0.7px;
+    }
+  
+    @include mobile-small {
+      font-size: 0.6px;
+    }
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: var(--ff);
+    font-size: 16rem;
+  }
+
+  .wrapper{
+    max-width: 1920rem;
+    margin-inline: auto;
+  }
+  
+  ._hidden {
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: calc(1190rem + 200rem);
+    width: 100%;
+    margin-inline: auto;
+    padding: 0 100rem;
+    background: rgb(186, 215, 242);
+  
+    @include desktop-small {
+      padding: 0 50rem;
+    }
+  
+    @include tablet {
+      padding: 0 40rem;
+    }
+  }
+  
+  .title {
+    color: var(--c-secondery);
+    font: var(--f-title);
+    & span {
+      color: var(--c-primary);
+    }
+  }
+  
+  .desc {
+    color: var(--c-desc);
+    font: var(--f-desc);
+  }
+  
+  .btn {
+    @include hover-on {
+      transition: var(--transition);
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  
+
+
+
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Регулюйте розмір, якщо потрібно */
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+ }
+  
