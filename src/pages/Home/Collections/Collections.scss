@@ -29,4 +29,36 @@
       line-height: 34rem;
     }
   }
+
+
+  &-swiper__container{
+    position: relative;
+  }
+
+  &__button-prev{
+    position: absolute;
+    top: 36%;
+    width: 58.71rem;
+    height: 58.71rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 53, 89);
+    left: 0;
+    cursor: pointer;
+  }
+  &__button-next{
+    position: absolute;
+    right: 30rem;
+    top: 33%;
+    width: 58.71rem;
+    height: 58.71rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 53, 89);
+    cursor: pointer;
+  }
 }
