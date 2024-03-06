@@ -3,6 +3,7 @@
   width: 100%;
   color: var(--white);
   background: var(--bg-header);
+  
 
   &__btns{
     display: flex;
@@ -21,7 +22,7 @@
     width: 100%;
     margin-inline: auto;
     background: rgb(186, 215, 242);
-    padding: 32rem 48rem 0 0;
+    padding: 32rem 100rem 0;
 
     display: flex;
     justify-content: space-between;
