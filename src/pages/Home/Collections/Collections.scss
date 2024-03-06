@@ -1,0 +1,32 @@
+.collections {
+  &__title {
+    color: rgb(6, 26, 64);
+    font-family: Playfair Display;
+    font-size: 64rem;
+    font-weight: 700;
+    line-height: 85rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 81rem;
+  }
+
+  .slide-info {
+    max-width: 363rem;
+    &__text {
+      color: rgb(0, 53, 89);
+      font-family: Lato;
+      font-size: 20rem;
+      font-weight: 700;
+      line-height: 24rem;
+      margin-top: 23rem;
+      margin-bottom: 12rem;
+    }
+    &__price {
+      color: rgb(6, 26, 64);
+      font-family: Lato;
+      font-size: 28rem;
+      font-weight: 900;
+      line-height: 34rem;
+    }
+  }
+}

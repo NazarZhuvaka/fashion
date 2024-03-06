@@ -21,9 +21,12 @@ export const Collections = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           loop="true"
           direction="horizontal"
-          spaceBetween={50}
+          spaceBetween={10}
           slidesPerView={3}
-          navigation
+          navigation={{
+            nextEl: ".collections__button-next",
+            prevEl: ".collections__button-prev",
+          }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
           className="collections-swiper"
@@ -45,7 +48,9 @@ export const Collections = () => {
           <SwiperSlide>
             <div className="slide-info">
               <img src={White} alt="" />
-              <p className="slide-info__text">White Rayon Short Blouson Crop Top</p>
+              <p className="slide-info__text">
+                White Rayon Short Blouson Crop Top
+              </p>
               <p className="slide-info__price">$250</p>
             </div>
           </SwiperSlide>
@@ -65,12 +70,46 @@ export const Collections = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-info">
-              <img src={White} alt="" />  
-              <p className="slide-info__text">White Rayon Short Blouson Crop Top</p>
+              <img src={White} alt="" />
+              <p className="slide-info__text">
+                White Rayon Short Blouson Crop Top
+              </p>
               <p className="slide-info__price">$250</p>
             </div>
           </SwiperSlide>
         </Swiper>
+        <button className="collections__button-prev">
+          <svg
+            width="28"
+            height="21"
+            viewBox="0 0 28 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26.0566 10.5516L2.13836 10.5516M2.13836 10.5516L10.5307 18.9439M2.13836 10.5516L10.5307 2.15918"
+              stroke="white"
+              stroke-width="2.51771"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <button className="collections__button-next">
+          <svg
+            width="28"
+            height="20"
+            viewBox="0 0 28 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.98242 9.84981L25.9007 9.84981M25.9007 9.84981L17.5083 1.45744M25.9007 9.84981L17.5083 18.2422"
+              stroke="white"
+              stroke-width="2.51771"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
       </div>
     </div>
   );
