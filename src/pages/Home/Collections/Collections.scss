@@ -71,7 +71,11 @@
     right: -30rem;
     bottom: -70rem;
   }
-//   .slider-dots{
-
-//   }
+  .slider-dots{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    top: -46rem;
+    left: -51rem;
+  }
 }
