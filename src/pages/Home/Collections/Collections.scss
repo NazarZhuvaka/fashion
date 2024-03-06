@@ -1,8 +1,9 @@
 .collections {
-    padding: 0 100rem;
+    // padding: 0 100rem;
     background: white;
-    padding-top: 150rem;
-    padding-bottom: 246rem;
+    // padding-top: 150rem;
+    // padding-bottom: 246rem;
+    padding: 150rem 150rem 246rem;
   &__title {
     color: rgb(6, 26, 64);
     font-family: Playfair Display;
@@ -54,7 +55,7 @@
   }
   &__button-next{
     position: absolute;
-    right: 30rem;
+    right: 0rem;
     top: 33%;
     width: 58.71rem;
     height: 58.71rem;

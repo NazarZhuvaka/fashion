@@ -21,7 +21,7 @@ export const Collections = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           loop="true"
           direction="horizontal"
-          spaceBetween={10}
+          spaceBetween={30}
           slidesPerView={3}
           navigation={{
             nextEl: ".collections__button-next",
