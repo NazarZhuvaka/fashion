@@ -110,6 +110,10 @@ export const Collections = () => {
             />
           </svg>
         </button>
+        {/* <svg width="285" height="285" viewBox="0 0 285 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="285" height="285" fill="#BAD7F2"/>
+</svg> */}
+
       </div>
     </div>
   );
