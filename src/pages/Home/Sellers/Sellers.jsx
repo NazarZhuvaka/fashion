@@ -27,7 +27,7 @@ export const Sellers = () => {
         loop={true}
         speed={600}
         pagination={{
-          grabCursor: "true",
+          grabCursor: true,
           type: "bullets",
           clickable: true,
           bulletClass: "custom-bullet",

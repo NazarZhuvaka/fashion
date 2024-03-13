@@ -18,6 +18,7 @@ import "swiper/css/scrollbar";
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         loop="true"
         direction="vertical"
+        speed={600}
         spaceBetween={50}
         slidesPerView={1}
         navigation={{
