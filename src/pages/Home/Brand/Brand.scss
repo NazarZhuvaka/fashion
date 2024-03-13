@@ -4,6 +4,12 @@
   align-items: center;
   gap: 20rem;
   padding: 88rem 100rem 150rem 150rem;
+
+  @include tablet{
+    flex-direction: column;
+    gap: 30rem;
+  }
+  
   &__img {
     position: relative;
     &-btn {

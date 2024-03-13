@@ -5,6 +5,11 @@
   gap: 15rem;
   padding: 53rem 100rem 37rem 150rem;
 
+  @include tablet{
+    flex-direction: column;
+    gap: 30rem;
+  }
+
   &__info {
     &-title {
       color: rgb(6, 26, 64);
