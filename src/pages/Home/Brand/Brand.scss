@@ -1,0 +1,42 @@
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+  &__img {
+    position: relative;
+    &-btn {
+      position: absolute;
+      padding: 20rem 60rem;
+      background: #ffffff;
+      color: #003559;
+      font-family: var(--ff);
+      font-size: 18rem;
+      font-weight: 900;
+      line-height: 32rem;
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+  &__info {
+    &-title {
+      color: #061a40;
+      font-family: Playfair Display;
+      font-size: 64rem;
+      font-weight: 700;
+      line-height: 78rem;
+      text-align: left;
+      text-transform: capitalize;
+    }
+    &-desc {
+      color: #003559;
+      font-family: var(--ff);
+      font-size: 20rem;
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: 0%;
+      text-align: left;
+      text-transform: capitalize;
+    }
+  }
+}

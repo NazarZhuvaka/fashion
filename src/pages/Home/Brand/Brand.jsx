@@ -1,10 +1,12 @@
 import React from "react";
 
+import Woman1 from "../../../../public/assets/brand-woman.png"
+
 export const Brand = () => {
   return (
     <div className="brand">
       <div className="brand__img">
-        <img src="" alt="women" />
+        <img src={Woman1} alt="women" />
         <button className="brand__img-btn">Explore now</button>
       </div>
 
