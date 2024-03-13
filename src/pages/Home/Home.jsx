@@ -2,6 +2,7 @@ import { Welcome } from "./Welcome/Welcome";
 import { Collections } from "./Collections/Collections";
 import { Brand } from "./Brand/Brand";
 import { Sellers } from "./Sellers/Sellers";
+import { Deal } from "./Deal/Deal";
 
 
 export const Home = () => {
@@ -12,6 +13,7 @@ export const Home = () => {
         <Collections />
         <Brand />
         <Sellers />
+        <Deal />
       
     </>
   );
