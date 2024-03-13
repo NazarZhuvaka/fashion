@@ -21,11 +21,13 @@ export const Sellers = () => {
   return (
     <div className="sellers">
       <h2 className="sellers__title">Our best sellers</h2>
+      
       <Swiper
         modules={[Grid, Navigation, Pagination, Scrollbar, A11y]}
         loop={true}
         speed={600}
         pagination={{
+          grabCursor:"true",
           type: 'bullets',
           clickable: true,
           bulletClass: 'custom-bullet',

@@ -1,6 +1,7 @@
 .sellers {
   padding: 150px 0 150px;
   background: white;
+  position: relative;
 
   &__title {
     color: rgb(6, 26, 64);
@@ -25,6 +26,7 @@
   flex-wrap: wrap;
   gap: 30rem;
   justify-content: center;
+  padding-top: 70rem;
 
   &_img {
     &-title {
@@ -66,12 +68,17 @@
 .swiper-pagination-bulleta-active {
   background: none;
   opacity: 1;
+  top: 0;
 }
 
 .swiper-pagination-bullet-active{
   // color: red;
   opacity: 1;
-  
+  top: 0;
   font-weight: 900;
  
+}
+
+.swiper-pagination{
+  top: 0 !important;
 }
