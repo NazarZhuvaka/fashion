@@ -407,6 +407,7 @@ body {
 
 .sellers {
   padding: 150px 100px 147px 150px;
+  background: white;
 }
 .sellers__title {
   color: rgb(6, 26, 64);
@@ -433,8 +434,8 @@ body {
 }
 .brand__img-btn {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 140rem;
+  bottom: 35rem;
   padding: 20rem 60rem;
   background: #ffffff;
   color: #003559;
@@ -444,6 +445,10 @@ body {
   line-height: 32rem;
   text-align: left;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.brand__img-btn:hover {
+  background: #d48902;
 }
 .brand__info-title {
   color: #061a40;
@@ -454,6 +459,7 @@ body {
   text-align: left;
   text-transform: capitalize;
   margin-bottom: 35rem;
+  max-width: 530rem;
 }
 .brand__info-desc {
   color: #003559;
@@ -465,6 +471,39 @@ body {
   text-align: left;
   text-transform: capitalize;
   margin-bottom: 86rem;
+  max-width: 446rem;
+}
+.brand__info-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18rem;
+  text-align: center;
+}
+.brand__info-blocks_text {
+  border: 2rem solid rgb(0, 53, 89);
+  transition: var(--transition);
+  padding: 44rem 20rem;
+}
+.brand__info-blocks_text:hover {
+  background: aliceblue;
+}
+.brand__info-blocks_text-title {
+  color: #003559;
+  font-family: Playfair Display;
+  font-size: 40rem;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.brand__info-blocks_text-desc {
+  color: #003559;
+  font-family: var(--ff);
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .header {
