@@ -6,11 +6,14 @@ import "swiper/css/pagination";
 
 import { Navigation, Pagination, Scrollbar, A11y, Grid } from "swiper/modules";
 
+import 'swiper/swiper-bundle.css';
+
 import First from "../../../../public/assets/first.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export const Sellers = () => {
+  
   return (
     <div className="sellers">
       <h2 className="sellers__title">Our best sellers</h2>
