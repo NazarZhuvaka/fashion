@@ -21,16 +21,16 @@ export const Sellers = () => {
   return (
     <div className="sellers">
       <h2 className="sellers__title">Our best sellers</h2>
-      
+
       <Swiper
         modules={[Grid, Navigation, Pagination, Scrollbar, A11y]}
         loop={true}
         speed={600}
         pagination={{
-          grabCursor:"true",
-          type: 'bullets',
+          grabCursor: "true",
+          type: "bullets",
           clickable: true,
-          bulletClass: 'custom-bullet',
+          bulletClass: "custom-bullet",
           renderBullet: function (index, className) {
             if (index === 0) {
               return `<span class="${className}">All</span>`;
@@ -38,8 +38,7 @@ export const Sellers = () => {
               return `<span class="${className}">Tops</span>`;
             } else if (index === 2) {
               return `<span class="${className}">Tshirts</span>`;
-            }
-            else {
+            } else {
               return `<span class="${className}">${index + 1}</span>`;
             }
           },
@@ -86,7 +85,7 @@ export const Sellers = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="slide__img-contaier">
+          <div className="slide__img-contaier">
             <div className="slide__img-contaier_img">
               <img src={Fiveth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
@@ -120,7 +119,7 @@ export const Sellers = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="slide__img-contaier">
+          <div className="slide__img-contaier">
             <div className="slide__img-contaier_img">
               <img src={Third} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
