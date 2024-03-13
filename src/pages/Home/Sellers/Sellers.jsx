@@ -26,7 +26,7 @@ export const Sellers = () => {
         loop={true}
         speed={600}
         pagination={{
-          dynamicBullets: true,
+          custom: true,
           clickable: true,
         }}
         direction="horizontal"
