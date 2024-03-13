@@ -13,7 +13,10 @@ export const Layout = () => {
     if (
       currentUrl !== "/" &&
       currentUrl !== "/men" &&
-      currentUrl !== "/women"
+      currentUrl !== "/women" &&
+      currentUrl !== "/kids" &&
+      currentUrl !== "/collection" &&
+      currentUrl !== "/trends" 
     ) {
       setOtherPages(true);
     } else {
