@@ -9,6 +9,11 @@ import { Navigation, Pagination, Scrollbar, A11y, Grid } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 import First from "../../../../public/assets/first.png";
+import Second from "../../../../public/assets/second.png";
+import Third from "../../../../public/assets/third.png";
+import Forth from "../../../../public/assets/forth.png";
+import Fiveth from "../../../../public/assets/fiveth.png";
+import Sixth from "../../../../public/assets/sixth.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -19,6 +24,7 @@ export const Sellers = () => {
       <Swiper
         modules={[Grid, Navigation, Pagination, Scrollbar, A11y]}
         loop={true}
+        speed={600}
         pagination={{
           dynamicBullets: true,
           clickable: true,
@@ -38,102 +44,100 @@ export const Sellers = () => {
               <p className="slide__img-contaier_img-price">$200</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Second} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$150</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Third} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$250</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Forth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$100</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Fiveth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$250</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Sixth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$300</p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="slide__img-contaier">
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Fiveth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$250</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={Forth} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$300</p>
             </div>
             <div className="slide__img-contaier_img">
               <img src={First} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$450</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Sixth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$100</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Third} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$150</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Second} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
-            </div>
-            <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
-              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$370</p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <div className="slide__img-contaier">
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Third} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$300</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={Sixth} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$500</p>
             </div>
             <div className="slide__img-contaier_img">
               <img src={First} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$145</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Fiveth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$790</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Second} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$99</p>
             </div>
             <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
+              <img src={Forth} alt="" />
               <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
-            </div>
-            <div className="slide__img-contaier_img">
-              <img src={First} alt="" />
-              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
-              <p className="slide__img-contaier_img-price">$200</p>
+              <p className="slide__img-contaier_img-price">$330</p>
             </div>
           </div>
         </SwiperSlide>
-        <div className="swiper-pagination-bullet">All</div>
-        <div className="swiper-pagination-bullet">Tops</div>
       </Swiper>
     </div>
   );

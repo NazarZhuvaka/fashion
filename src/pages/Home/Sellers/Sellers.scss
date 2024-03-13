@@ -1,5 +1,5 @@
 .sellers {
-  // padding: 150px 100px  147px 150px;
+  padding: 150px 0 150px;
   background: white;
 
   &__title {
@@ -26,7 +26,7 @@
   gap: 30rem;
   justify-content: center;
 
-  &__img {
+  &_img {
     &-title {
       margin-top: 22rem;
       color: #003559;
@@ -40,11 +40,9 @@
       margin-top: 11rem;
       color: #061a40;
       font-family: var(--ff);
-      font-size: 28px;
+      font-size: 28rem;
       font-weight: 900;
-      line-height: 34px;
-      letter-spacing: 0%;
-      text-align: center;
+      line-height: 34rem;
     }
   }
 }
