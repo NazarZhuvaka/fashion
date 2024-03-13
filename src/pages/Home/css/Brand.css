@@ -48,5 +48,32 @@
 .brand__info-blocks {
   display: flex;
   flex-wrap: wrap;
-  grid-area: 18rem;
+  gap: 18rem;
+  text-align: center;
+}
+.brand__info-blocks_text {
+  border: 2rem solid rgb(0, 53, 89);
+  transition: var(--transition);
+  padding: 44rem 20rem;
+}
+.brand__info-blocks_text:hover {
+  background: aliceblue;
+}
+.brand__info-blocks_text-title {
+  color: #003559;
+  font-family: Playfair Display;
+  font-size: 40rem;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.brand__info-blocks_text-desc {
+  color: #003559;
+  font-family: var(--ff);
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
 }/*# sourceMappingURL=Brand.css.map */

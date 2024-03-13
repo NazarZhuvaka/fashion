@@ -50,7 +50,42 @@
     &-blocks {
       display: flex;
       flex-wrap: wrap;
-      grid-area: 18rem;
+      gap: 18rem;
+      text-align: center;
+
+      &_text {
+        border: 2rem solid rgb(0, 53, 89);
+        transition: var(--transition);
+        padding: 44rem 20rem;
+
+        &:hover {
+            background: aliceblue;
+          }
+
+        &-title {
+          color: #003559;
+          font-family: Playfair Display;
+          font-size: 40rem;
+          font-weight: 700;
+          line-height: 100%;
+          text-align: center;
+          text-transform: capitalize;
+          
+        }
+
+        &-desc {
+          color:#003559;
+          font-family: var(--ff);
+          font-size: 18rem;
+          font-weight: 400;
+          line-height: 100%;
+          text-align: center;
+          text-transform: capitalize;
+          
+        }
+
+        
+      }
     }
   }
 }
