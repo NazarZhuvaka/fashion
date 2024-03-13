@@ -65,23 +65,71 @@ export const Sellers = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slide__img-contaier">
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
+        <div className="slide__img-contaier">
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slide__img-contaier">
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
+        <div className="slide__img-contaier">
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
           </div>
         </SwiperSlide>
         <div className="swiper-pagination-bullet">All</div>

@@ -1,7 +1,7 @@
 .sellers {
-    // padding: 150px 100px  147px 150px;
-    background: white;
-    
+  // padding: 150px 100px  147px 150px;
+  background: white;
+
   &__title {
     color: rgb(6, 26, 64);
     font-family: Playfair Display;
@@ -20,18 +20,31 @@
   // background: red;
 }
 
-.slide__img-contaier{
+.slide__img-contaier {
   display: flex;
-    flex-wrap: wrap;
-    gap: 30rem;
-    justify-content: center;
+  flex-wrap: wrap;
+  gap: 30rem;
+  justify-content: center;
 
-    &__img{
-      &-title{
-
-      }
-      &-price{
-        
-      }
+  &__img {
+    &-title {
+      margin-top: 22rem;
+      color: #003559;
+      font-family: var(--ff);
+      font-size: 20rem;
+      font-weight: 700;
+      line-height: 24rem;
+      text-align: left;
     }
+    &-price {
+      margin-top: 11rem;
+      color: #061a40;
+      font-family: var(--ff);
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 34px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+  }
 }
