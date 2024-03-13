@@ -1,0 +1,74 @@
+.collections {
+  background: white;
+  padding: 150rem 150rem 246rem;
+}
+.collections__title {
+  color: rgb(6, 26, 64);
+  font-family: Playfair Display;
+  font-size: 64rem;
+  font-weight: 700;
+  line-height: 85rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 81rem;
+}
+.collections .slide-info {
+  max-width: 363rem;
+}
+.collections .slide-info__text {
+  color: rgb(0, 53, 89);
+  font-family: Lato;
+  font-size: 20rem;
+  font-weight: 700;
+  line-height: 24rem;
+  margin-top: 23rem;
+  margin-bottom: 12rem;
+}
+.collections .slide-info__price {
+  color: rgb(6, 26, 64);
+  font-family: Lato;
+  font-size: 28rem;
+  font-weight: 900;
+  line-height: 34rem;
+}
+.collections-swiper__container {
+  position: relative;
+}
+.collections__button-prev {
+  position: absolute;
+  top: 36%;
+  width: 58.71rem;
+  height: 58.71rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 53, 89);
+  left: 0;
+  cursor: pointer;
+}
+.collections__button-next {
+  position: absolute;
+  right: 0rem;
+  top: 33%;
+  width: 58.71rem;
+  height: 58.71rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 53, 89);
+  cursor: pointer;
+}
+.collections .slider-cube {
+  position: absolute;
+  right: -60rem;
+  bottom: -70rem;
+}
+.collections .slider-dots {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  top: -46rem;
+  left: -51rem;
+}/*# sourceMappingURL=Collections.css.map */

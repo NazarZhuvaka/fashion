@@ -3,10 +3,14 @@
   justify-content: space-between;
   align-items: center;
   gap: 20rem;
+  //   background: var(--bg-main);
+  padding: 88rem 100rem 150rem 150rem;
   &__img {
     position: relative;
     &-btn {
       position: absolute;
+      left: 0;
+      bottom: 0;
       padding: 20rem 60rem;
       background: #ffffff;
       color: #003559;
@@ -27,6 +31,8 @@
       line-height: 78rem;
       text-align: left;
       text-transform: capitalize;
+      margin-bottom: 35rem;
+      max-width: 530rem;
     }
     &-desc {
       color: #003559;
@@ -37,6 +43,14 @@
       letter-spacing: 0%;
       text-align: left;
       text-transform: capitalize;
+      margin-bottom: 86rem;
+      max-width: 446rem;
+    }
+
+    &-blocks {
+      display: flex;
+      flex-wrap: wrap;
+      grid-area: 18rem;
     }
   }
 }

@@ -1,0 +1,75 @@
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20rem;
+  padding-right: 49rem;
+  margin-top: 111rem;
+  margin-bottom: 88rem;
+  padding: 0 150rem;
+  position: relative;
+}
+.welcome-dots {
+  position: absolute;
+  top: -15px;
+  left: 0rem;
+}
+.welcome__info-title {
+  color: rgb(6, 26, 64);
+  font-family: Playfair Display;
+  font-size: 78rem;
+  font-weight: 700;
+  line-height: 78rem;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  max-width: 478rem;
+  margin-bottom: 20rem;
+}
+.welcome__info-text {
+  color: rgb(0, 53, 89);
+  font-family: Lato;
+  font-size: 22rem;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 476rem;
+  margin-bottom: 40rem;
+}
+.welcome__button {
+  padding: 20rem 60rem;
+  background: rgb(0, 53, 89);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 18rem;
+  font-weight: 900;
+  line-height: 32rem;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.welcome-swiper {
+  width: 520rem;
+  height: 600rem;
+  position: relative;
+}
+
+.swiper-container {
+  position: relative;
+  width: 520rem;
+  height: 600rem;
+}
+
+.button-next {
+  position: absolute;
+  right: -28px;
+  bottom: -24rem;
+  z-index: 1;
+  width: 124rem;
+  height: 124rem;
+  background: #003559;
+  cursor: pointer;
+}/*# sourceMappingURL=Welcome.css.map */
