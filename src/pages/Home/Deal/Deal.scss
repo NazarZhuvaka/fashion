@@ -1,0 +1,89 @@
+.deal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15rem;
+  padding: 53rem 100rem 37rem 150rem;
+
+  &__info {
+    &-title {
+      color: rgb(6, 26, 64);
+      font-family: Playfair Display;
+      font-size: 49.98rem;
+      font-weight: 700;
+      line-height: 67rem;
+      text-align: left;
+      max-width: 375px;
+      margin-bottom: 15rem;
+    }
+    &-desc {
+      color: rgb(0, 53, 89);
+      font-family: var(--ff);
+      font-size: 17.64rem;
+      font-weight: 500;
+      line-height: 166.4%;
+      text-align: left;
+      max-width: 441.04rem;
+      margin-bottom: 45rem;
+    }
+
+    &-blocks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18rem;
+      text-align: center;
+      margin-bottom: 60rem;
+
+      &_text {
+        background: #003559;
+        transition: var(--transition);
+        padding: 18rem 35rem 23rem 35rem;
+
+        &-title {
+          color: rgb(255, 255, 255);
+          font-family: Playfair Display;
+          font-size: 26rem;
+          font-weight: 700;
+          line-height: 100%;
+          text-align: center;
+        }
+
+        &-desc {
+          color: rgb(255, 255, 255);
+          font-family: var(--ff);
+          font-size: 16rem;
+          font-weight: 400;
+          line-height: 166.4%;
+          text-align: center;
+        }
+      }
+    }
+
+    &-btn {
+      padding: 20rem 60rem;
+      background: rgb(0, 53, 89);
+
+      color: rgb(255, 255, 255);
+      font-family: var(--ff);
+      font-size: 18rem;
+      font-weight: 900;
+      line-height: 32px;
+      text-align: left;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+  &__img {
+    position: relative;
+    &_right-dots{
+        position: absolute;
+        top: -10rem;
+        right: -41rem;
+    }
+    &_left-dots{
+        position: absolute;
+        bottom: -25rem;
+        left: -92rem;
+    }
+  }
+}
