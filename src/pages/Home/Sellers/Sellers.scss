@@ -1,5 +1,5 @@
 .sellers {
-    padding: 150px 100px  147px 150px;
+    // padding: 150px 100px  147px 150px;
     background: white;
     
   &__title {
@@ -18,4 +18,20 @@
 
 .swiper-pagination-bullet {
   // background: red;
+}
+
+.slide__img-contaier{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 30rem;
+    justify-content: center;
+
+    &__img{
+      &-title{
+
+      }
+      &-price{
+        
+      }
+    }
 }

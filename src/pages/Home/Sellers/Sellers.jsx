@@ -6,14 +6,13 @@ import "swiper/css/pagination";
 
 import { Navigation, Pagination, Scrollbar, A11y, Grid } from "swiper/modules";
 
-import 'swiper/swiper-bundle.css';
+import "swiper/swiper-bundle.css";
 
 import First from "../../../../public/assets/first.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export const Sellers = () => {
-  
   return (
     <div className="sellers">
       <h2 className="sellers__title">Our best sellers</h2>
@@ -33,12 +32,36 @@ export const Sellers = () => {
       >
         <SwiperSlide>
           <div className="slide__img-contaier">
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
-            <img src={First} alt="" />
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
+            <div className="slide__img-contaier_img">
+              <img src={First} alt="" />
+              <p className="slide__img-contaier_img-title">Lorem Ipsum</p>
+              <p className="slide__img-contaier_img-price">$200</p>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -67,6 +90,3 @@ export const Sellers = () => {
     </div>
   );
 };
-
-
-
