@@ -1,7 +1,19 @@
-.sellers{
-    &__title{}
+.sellers {
+    padding: 150px 100px  147px 150px;
+  &__title {
+    color: rgb(6, 26, 64);
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 47px;
+  }
 }
 
-.swiper-pagination-bullet{
-    background: red;
+.swiper-pagination-bullet {
+  // background: red;
 }
