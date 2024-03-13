@@ -26,8 +26,21 @@ export const Sellers = () => {
         loop={true}
         speed={600}
         pagination={{
-          custom: true,
+          type: 'bullets',
           clickable: true,
+          bulletClass: 'custom-bullet',
+          renderBullet: function (index, className) {
+            if (index === 0) {
+              return `<span class="${className}">All</span>`;
+            } else if (index === 1) {
+              return `<span class="${className}">Tops</span>`;
+            } else if (index === 2) {
+              return `<span class="${className}">Tshirts</span>`;
+            }
+            else {
+              return `<span class="${className}">${index + 1}</span>`;
+            }
+          },
         }}
         direction="horizontal"
         spaceBetween={10}

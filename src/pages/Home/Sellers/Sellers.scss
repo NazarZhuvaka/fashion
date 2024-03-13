@@ -46,3 +46,32 @@
     }
   }
 }
+
+.custom-bullet{
+  opacity: 0.5;
+  background: none;
+  cursor: pointer;
+  margin-left: 9rem;
+
+  color: rgb(0, 53, 89);
+  font-family: var(--ff);
+  font-size: 15rem;
+  font-weight: 500;
+  line-height: 18rem;
+  letter-spacing: 11.5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.swiper-pagination-bulleta-active {
+  background: none;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+  // color: red;
+  opacity: 1;
+  
+  font-weight: 900;
+ 
+}
